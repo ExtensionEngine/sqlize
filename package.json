@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.15",
+    "pg": "^7.12.1",
     "read-pkg-up": "^7.0.0",
     "semver": "^6.3.0",
     "sequelize": "^5.19.4",

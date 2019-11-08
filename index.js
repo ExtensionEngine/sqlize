@@ -1,4 +1,4 @@
 
 'use strict';
 
-module.exports = require('./lib/esequelize');
+module.exports = require('./lib/sqlize');

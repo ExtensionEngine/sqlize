@@ -1,3 +1,3 @@
-#  ESequelize
+#  Sqlize
 
 >Under construction :construction:

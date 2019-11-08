@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "lint:js": "eslint --ext .js,.vue .",
-    "lint:scss": "stylelint \"client/**/*.vue\" \"client/**/*.scss\"",
     "lint": "npm run lint:js; npm run lint:scss"
   },
   "author": "",

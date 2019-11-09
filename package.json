@@ -1,14 +1,41 @@
 {
   "name": "sqlize",
   "version": "0.0.1",
-  "description": "",
+  "description": "Extension Engine's Sequelize wrapper",
+  "keywords": [
+    "Extension Engine",
+    "Sequelize",
+    "javascript",
+    "node",
+    "postgres",
+    "sqlize"
+  ],
+  "homepage": "https://github.com/ExtensionEngine/sqlize#readme",
+  "bugs": {
+    "url": "https://github.com/ExtensionEngine/sqlize/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExtensionEngine/sqlize.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Extension Engine",
+    "email": "info@extensionengine.com",
+    "url": "https://extensionengine.com"
+  },
   "main": "index.js",
   "scripts": {
-    "lint:js": "eslint --ext .js,.vue .",
-    "lint": "npm run lint:js; npm run lint:scss"
+    "lint": "eslint ."
   },
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "pg": "^7.12.1",
+    "read-pkg-up": "^7.0.0",
+    "semver": "^6.3.0",
+    "sequelize": "^5.19.4",
+    "umzug": "^2.2.0"
+  },
   "devDependencies": {
     "@extensionengine/eslint-config": "^1.0.1",
     "babel-eslint": "^10.0.3",
@@ -20,13 +47,5 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^5.2.3"
-  },
-  "dependencies": {
-    "lodash": "^4.17.15",
-    "pg": "^7.12.1",
-    "read-pkg-up": "^7.0.0",
-    "semver": "^6.3.0",
-    "sequelize": "^5.19.4",
-    "umzug": "^2.2.0"
   }
 }

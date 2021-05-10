@@ -29,7 +29,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "pg": "^7.12.1",
     "read-pkg-up": "^7.0.0",
     "semver": "^6.3.0",
